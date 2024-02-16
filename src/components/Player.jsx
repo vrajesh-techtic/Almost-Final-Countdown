@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 const Player = () => {
   const name = useRef();
 
-  const [playerName, setplayerName] = useState("unknown entity");
+  const [playerName, setplayerName] = useState("Buddy!");
 
   function handleClick() {
     setplayerName(name.current.value);
